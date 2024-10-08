@@ -12,9 +12,9 @@ import java.util.ArrayList;
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder> {
 
-    private ArrayList<Task> taskList;  // Use Task objects, not String
+    private ArrayList<Task> taskList;
 
-    // Constructor to initialize taskList
+
     public TaskAdapter(ArrayList<Task> taskList) {
         this.taskList = taskList;
     }

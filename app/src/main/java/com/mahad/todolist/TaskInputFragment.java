@@ -21,7 +21,7 @@ public class TaskInputFragment extends Fragment {
     public TaskInputFragment() {
     }
 
-    // Define an interface for the activity to implement
+
     public interface OnTaskSavedListener {
         void onTaskSaved(String taskName, String taskDescription);
     }
@@ -56,7 +56,7 @@ public class TaskInputFragment extends Fragment {
                 taskSavedListener.onTaskSaved(taskName, taskDescription);
             }
 
-            // Close the fragment after saving
+
             getParentFragmentManager().popBackStack();
         });
 
